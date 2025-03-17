@@ -1,4 +1,4 @@
-$(document).read(function () {
+$(document).ready(function () {
     $(document).on("keypress", function(e) {
         if (e.wich == 13) {
             let.url = `https://app-ruby-five.vercel.app/api/news`
