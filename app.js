@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(document).on("keypress", function(e) {
-        if (e.wich == 13) {
+        if (e.which == 13) {
             let.url = `https://app-ruby-five.vercel.app/api/news`
             async function mynews() {
                 let responce = await fetch(url);
